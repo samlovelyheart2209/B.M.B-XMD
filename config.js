@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "xTkHFTKa#uVw9gBsx09P1pQkXVYQsCaWvylny7LxYoG-Ffotf8OM",
+SESSION_ID: process.env.SESSION_ID || "B.m.b-Xmd~FCNTRCgZ#grMYp780pU7MGdUXvq-0cylLT6v7JuUCIrkXiwtmpEU",
 // add your Session Id 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
-BOT_NAME: process.env.BOT_NAME || "✦ rebeca-XMD ✦ XMD ✦",
+BOT_NAME: process.env.BOT_NAME || "✦ Sam✦✦",
 // add bot namw here for menu
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -17,7 +17,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "255754052148",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "255616440856",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "✦ sam-XMD ✦ XMD ✦",
 // add bot owner name
@@ -46,7 +46,7 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for send automatic voices
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
-// make true for automatic stickers 
+// make true,false for automatic stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 HEART_REACT: process.env.HEART_REACT || "false",
